@@ -7,6 +7,6 @@ int main()
     while (a!='a'){
     	printf("%d\n", x);
     	x++;
-    	scanf(" %c", &a);
+    	scanf(" %c", &a); // only true way to use char s in while loop.
 	}
 }
